@@ -1,0 +1,10 @@
+D:\100\examples\VistaSelection\VistaSelection\bin\Debug\VistaSelection.exe
+D:\100\examples\VistaSelection\VistaSelection\bin\Debug\VistaSelection.pdb
+D:\100\examples\VistaSelection\VistaSelection\bin\Debug\ObjectListView.dll
+D:\100\examples\VistaSelection\VistaSelection\obj\Debug\VistaSelection.csprojAssemblyReference.cache
+D:\100\examples\VistaSelection\VistaSelection\obj\Debug\VistaSelection.Form1.resources
+D:\100\examples\VistaSelection\VistaSelection\obj\Debug\VistaSelection.Properties.Resources.resources
+D:\100\examples\VistaSelection\VistaSelection\obj\Debug\VistaSelection.csproj.GenerateResource.cache
+D:\100\examples\VistaSelection\VistaSelection\obj\Debug\VistaSelection.csproj.CopyComplete
+D:\100\examples\VistaSelection\VistaSelection\obj\Debug\VistaSelection.exe
+D:\100\examples\VistaSelection\VistaSelection\obj\Debug\VistaSelection.pdb

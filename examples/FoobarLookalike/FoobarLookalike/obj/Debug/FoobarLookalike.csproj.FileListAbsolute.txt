@@ -1,0 +1,11 @@
+D:\100\examples\FoobarLookalike\FoobarLookalike\bin\Debug\FoobarLookalike.exe
+D:\100\examples\FoobarLookalike\FoobarLookalike\bin\Debug\FoobarLookalike.pdb
+D:\100\examples\FoobarLookalike\FoobarLookalike\bin\Debug\ObjectListView.dll
+D:\100\examples\FoobarLookalike\FoobarLookalike\obj\Debug\FoobarLookalike.csprojAssemblyReference.cache
+D:\100\examples\FoobarLookalike\FoobarLookalike\obj\Debug\FoobarLookalike.Form1.resources
+D:\100\examples\FoobarLookalike\FoobarLookalike\obj\Debug\FoobarLookalike.Properties.Resources.resources
+D:\100\examples\FoobarLookalike\FoobarLookalike\obj\Debug\FoobarLookalike.Resource1.resources
+D:\100\examples\FoobarLookalike\FoobarLookalike\obj\Debug\FoobarLookalike.csproj.GenerateResource.cache
+D:\100\examples\FoobarLookalike\FoobarLookalike\obj\Debug\FoobarLookalike.csproj.CopyComplete
+D:\100\examples\FoobarLookalike\FoobarLookalike\obj\Debug\FoobarLookalike.exe
+D:\100\examples\FoobarLookalike\FoobarLookalike\obj\Debug\FoobarLookalike.pdb
