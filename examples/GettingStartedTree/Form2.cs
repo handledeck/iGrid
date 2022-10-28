@@ -297,13 +297,20 @@ namespace GettingStartedTree
       }
         
     }
-
+    
     private void treeListView1_FormatRow(object sender, BrightIdeasSoftware.FormatRowEventArgs e)
     {
       VV vv = (VV)e.Model;
-      if (vv.MyProperty != null) {
+      if (vv.MyProperty != null)
+      {
+        e.ListView.FullRowSelect = false;
+        e.Item.Font = new Font("Courier New", e.Item.Font.Size);
         
-        e.Item.Font = new Font("Tahoma",e.Item.Font.Size);
+      }
+      else {
+        
+        e.ListView.FullRowSelect = true;
+        e.Item.Font = new Font("Tahoma", e.Item.Font.Size);
       }
       
       int z = 0;

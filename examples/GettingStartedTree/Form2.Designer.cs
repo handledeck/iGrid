@@ -56,16 +56,20 @@
       this.treeListView1.Cursor = System.Windows.Forms.Cursors.Default;
       this.treeListView1.Dock = System.Windows.Forms.DockStyle.Fill;
       this.treeListView1.FullRowSelect = true;
-      this.treeListView1.GridLines = true;
       this.treeListView1.HideSelection = false;
-      this.treeListView1.Location = new System.Drawing.Point(3, 3);
+      this.treeListView1.IncludeColumnHeadersInCopy = true;
+      this.treeListView1.IncludeHiddenColumnsInDataTransfer = true;
+      this.treeListView1.Location = new System.Drawing.Point(4, 4);
+      this.treeListView1.Margin = new System.Windows.Forms.Padding(4);
       this.treeListView1.Name = "treeListView1";
       this.treeListView1.OwnerDraw = true;
       this.treeListView1.ShowGroups = false;
-      this.treeListView1.Size = new System.Drawing.Size(974, 544);
+      this.treeListView1.ShowSortIndicators = false;
+      this.treeListView1.Size = new System.Drawing.Size(1299, 668);
       this.treeListView1.SmallImageList = this.imageList1;
       this.treeListView1.TabIndex = 0;
       this.treeListView1.UseCompatibleStateImageBehavior = false;
+      this.treeListView1.UseFilterIndicator = false;
       this.treeListView1.UseHotItem = true;
       this.treeListView1.View = System.Windows.Forms.View.Details;
       this.treeListView1.VirtualMode = true;
@@ -100,9 +104,10 @@
       // 
       // button1
       // 
-      this.button1.Location = new System.Drawing.Point(3, 553);
+      this.button1.Location = new System.Drawing.Point(4, 680);
+      this.button1.Margin = new System.Windows.Forms.Padding(4);
       this.button1.Name = "button1";
-      this.button1.Size = new System.Drawing.Size(75, 23);
+      this.button1.Size = new System.Drawing.Size(100, 28);
       this.button1.TabIndex = 1;
       this.button1.Text = "button1";
       this.button1.UseVisualStyleBackColor = true;
@@ -116,19 +121,21 @@
       this.tableLayoutPanel1.Controls.Add(this.button1, 0, 1);
       this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
       this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+      this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
       this.tableLayoutPanel1.Name = "tableLayoutPanel1";
       this.tableLayoutPanel1.RowCount = 2;
       this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 94.0171F));
       this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.982906F));
-      this.tableLayoutPanel1.Size = new System.Drawing.Size(980, 585);
+      this.tableLayoutPanel1.Size = new System.Drawing.Size(1307, 720);
       this.tableLayoutPanel1.TabIndex = 2;
       // 
       // Form2
       // 
-      this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+      this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(980, 585);
+      this.ClientSize = new System.Drawing.Size(1307, 720);
       this.Controls.Add(this.tableLayoutPanel1);
+      this.Margin = new System.Windows.Forms.Padding(4);
       this.Name = "Form2";
       this.Text = "Form2";
       ((System.ComponentModel.ISupportInitialize)(this.treeListView1)).EndInit();
