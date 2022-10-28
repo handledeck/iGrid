@@ -73,6 +73,7 @@
     <Compile Include="..\Song.cs">
       <Link>Song.cs</Link>
     </Compile>
+    <Compile Include="AllResMeter.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
