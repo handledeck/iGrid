@@ -8,3 +8,14 @@ D:\100\examples\GettingStarted3\GettingStarted3\obj\Debug\GettingStarted3.csproj
 D:\100\examples\GettingStarted3\GettingStarted3\obj\Debug\GettingStarted3.csproj.CopyComplete
 D:\100\examples\GettingStarted3\GettingStarted3\obj\Debug\GettingStarted1.exe
 D:\100\examples\GettingStarted3\GettingStarted3\obj\Debug\GettingStarted1.pdb
+D:\100\iGrid\examples\GettingStarted3\GettingStarted3\bin\Debug\GettingStarted1.exe
+D:\100\iGrid\examples\GettingStarted3\GettingStarted3\bin\Debug\GettingStarted1.pdb
+D:\100\iGrid\examples\GettingStarted3\GettingStarted3\bin\Debug\ObjectListView.dll
+D:\100\iGrid\examples\GettingStarted3\GettingStarted3\obj\Debug\GettingStarted3.csprojAssemblyReference.cache
+D:\100\iGrid\examples\GettingStarted3\GettingStarted3\obj\Debug\GettingStarted1.Form1.resources
+D:\100\iGrid\examples\GettingStarted3\GettingStarted3\obj\Debug\GettingStarted1.Properties.Resources.resources
+D:\100\iGrid\examples\GettingStarted3\GettingStarted3\obj\Debug\GettingStarted3.csproj.GenerateResource.cache
+D:\100\iGrid\examples\GettingStarted3\GettingStarted3\obj\Debug\GettingStarted3.csproj.CoreCompileInputs.cache
+D:\100\iGrid\examples\GettingStarted3\GettingStarted3\obj\Debug\GettingStarted3.csproj.CopyComplete
+D:\100\iGrid\examples\GettingStarted3\GettingStarted3\obj\Debug\GettingStarted1.exe
+D:\100\iGrid\examples\GettingStarted3\GettingStarted3\obj\Debug\GettingStarted1.pdb

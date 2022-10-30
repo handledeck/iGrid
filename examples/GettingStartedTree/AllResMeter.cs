@@ -22,6 +22,11 @@ namespace GettingStartedTree
       if (!string.IsNullOrEmpty(meters))
       {
         List<MeterType> lst = JsonSerializer.DeserializeFromString<List<MeterType>>(meters);
+        foreach (var item in lst)
+        {
+          if (item.meter_factory == "Н/Д")
+            item.meter_factory = string.Empty;
+        }
         return lst;
       }
       else

@@ -15,7 +15,8 @@ namespace GettingStartedTree
     [ServiceStack.DataAnnotations.AutoIncrement]
     public int id { get; set; }
     public int ctrl_id { get; set; }
-   
+    public int parent_id { get; set; }
+    public string ip { get; set; }
     public string meter_type { get; set; }
     public string meter_factory { get; set; }
 
@@ -43,6 +44,7 @@ namespace GettingStartedTree
     public string meter_type { get; set; }
     public string meter_factory { get; set; }
     public double value { get; set; }
+    public bool is_true { get; set; }
 
     public static bool CheckTableDb(IDbConnection dbConnection) {
       
@@ -61,6 +63,7 @@ namespace GettingStartedTree
     public string meter_factory { get; set; }
     public DateTime date_time { get; set; }
     public float value { get; set; }
+    public bool is_true{ get; set; }
   }
 
   public class MettersRes
@@ -69,6 +72,7 @@ namespace GettingStartedTree
     public string Name { get; set; }
     public string IP { get; set; }
     public List<MeterType> ListMeterType { get; set; }
+    public bool is_true { get; set; }
 
     public static List<MeterType> ResolveMeters(string meters) {
       try

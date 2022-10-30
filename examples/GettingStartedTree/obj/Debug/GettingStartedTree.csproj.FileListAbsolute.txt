@@ -24,6 +24,13 @@ D:\100\examples\GettingStartedTree\bin\Debug\ServiceStack.OrmLite.PostgreSQL.xml
 D:\100\examples\GettingStartedTree\bin\Debug\ServiceStack.Text.xml
 D:\100\examples\GettingStartedTree\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\100\examples\GettingStartedTree\obj\Debug\GettingStartedTree.Form2.resources
+D:\100\iGrid\examples\GettingStartedTree\obj\Debug\GettingStartedTree.Form1.resources
+D:\100\iGrid\examples\GettingStartedTree\obj\Debug\GettingStartedTree.Form2.resources
+D:\100\iGrid\examples\GettingStartedTree\obj\Debug\GettingStartedTree.Form3.resources
+D:\100\iGrid\examples\GettingStartedTree\obj\Debug\GettingStartedTree.MeterTreeView.resources
+D:\100\iGrid\examples\GettingStartedTree\obj\Debug\GettingStartedTree.Properties.Resources.resources
+D:\100\iGrid\examples\GettingStartedTree\obj\Debug\GettingStartedTree.csproj.GenerateResource.cache
+D:\100\iGrid\examples\GettingStartedTree\obj\Debug\GettingStartedTree.csproj.CoreCompileInputs.cache
 D:\100\iGrid\examples\GettingStartedTree\bin\Debug\GettingStartedTree.exe.config
 D:\100\iGrid\examples\GettingStartedTree\bin\Debug\GettingStartedTree.exe
 D:\100\iGrid\examples\GettingStartedTree\bin\Debug\GettingStartedTree.pdb
@@ -42,12 +49,6 @@ D:\100\iGrid\examples\GettingStartedTree\bin\Debug\ServiceStack.OrmLite.xml
 D:\100\iGrid\examples\GettingStartedTree\bin\Debug\ServiceStack.OrmLite.PostgreSQL.xml
 D:\100\iGrid\examples\GettingStartedTree\bin\Debug\ServiceStack.Text.xml
 D:\100\iGrid\examples\GettingStartedTree\bin\Debug\System.Threading.Tasks.Extensions.xml
-D:\100\iGrid\examples\GettingStartedTree\obj\Debug\GettingStartedTree.csprojAssemblyReference.cache
-D:\100\iGrid\examples\GettingStartedTree\obj\Debug\GettingStartedTree.Form1.resources
-D:\100\iGrid\examples\GettingStartedTree\obj\Debug\GettingStartedTree.Form2.resources
-D:\100\iGrid\examples\GettingStartedTree\obj\Debug\GettingStartedTree.Properties.Resources.resources
-D:\100\iGrid\examples\GettingStartedTree\obj\Debug\GettingStartedTree.csproj.GenerateResource.cache
-D:\100\iGrid\examples\GettingStartedTree\obj\Debug\GettingStartedTree.csproj.CoreCompileInputs.cache
 D:\100\iGrid\examples\GettingStartedTree\obj\Debug\GettingStartedTree.csproj.CopyComplete
 D:\100\iGrid\examples\GettingStartedTree\obj\Debug\GettingStartedTree.exe
 D:\100\iGrid\examples\GettingStartedTree\obj\Debug\GettingStartedTree.pdb

@@ -65,7 +65,7 @@
       this.treeListView1.OwnerDraw = true;
       this.treeListView1.ShowGroups = false;
       this.treeListView1.ShowSortIndicators = false;
-      this.treeListView1.Size = new System.Drawing.Size(1299, 668);
+      this.treeListView1.Size = new System.Drawing.Size(845, 668);
       this.treeListView1.SmallImageList = this.imageList1;
       this.treeListView1.TabIndex = 0;
       this.treeListView1.UseCompatibleStateImageBehavior = false;
@@ -99,8 +99,11 @@
       // 
       this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
       this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-      this.imageList1.Images.SetKeyName(0, "nav_down");
-      this.imageList1.Images.SetKeyName(1, "nav");
+      this.imageList1.Images.SetKeyName(0, "ok");
+      this.imageList1.Images.SetKeyName(1, "err");
+      this.imageList1.Images.SetKeyName(2, "nav_down");
+      this.imageList1.Images.SetKeyName(3, "error");
+      this.imageList1.Images.SetKeyName(4, "delete2.ico");
       // 
       // button1
       // 
@@ -126,14 +129,15 @@
       this.tableLayoutPanel1.RowCount = 2;
       this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 94.0171F));
       this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.982906F));
-      this.tableLayoutPanel1.Size = new System.Drawing.Size(1307, 720);
+      this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+      this.tableLayoutPanel1.Size = new System.Drawing.Size(853, 720);
       this.tableLayoutPanel1.TabIndex = 2;
       // 
       // Form2
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(1307, 720);
+      this.ClientSize = new System.Drawing.Size(853, 720);
       this.Controls.Add(this.tableLayoutPanel1);
       this.Margin = new System.Windows.Forms.Padding(4);
       this.Name = "Form2";
@@ -154,5 +158,5 @@
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-    }
+  }
 }
