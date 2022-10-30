@@ -52,3 +52,5 @@ D:\100\iGrid\examples\GettingStartedTree\bin\Debug\System.Threading.Tasks.Extens
 D:\100\iGrid\examples\GettingStartedTree\obj\Debug\GettingStartedTree.csproj.CopyComplete
 D:\100\iGrid\examples\GettingStartedTree\obj\Debug\GettingStartedTree.exe
 D:\100\iGrid\examples\GettingStartedTree\obj\Debug\GettingStartedTree.pdb
+D:\100\iGrid\examples\GettingStartedTree\obj\Debug\GettingStartedTree.csprojAssemblyReference.cache
+D:\100\iGrid\examples\GettingStartedTree\obj\Debug\GettingStartedTree.Form4.resources

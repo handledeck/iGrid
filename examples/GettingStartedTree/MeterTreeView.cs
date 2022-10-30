@@ -140,5 +140,10 @@ namespace GettingStartedTree
       if (this.MeterUpdateEvent != null)
         this.MeterUpdateEvent(this);
     }
+
+    private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+    {
+
+    }
   }
 }
