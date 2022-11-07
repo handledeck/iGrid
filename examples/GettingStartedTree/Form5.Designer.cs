@@ -1,7 +1,7 @@
 ﻿
 namespace GettingStartedTree
 {
-  partial class Form4
+  partial class Form5
   {
     /// <summary>
     /// Required designer variable.
@@ -37,17 +37,17 @@ namespace GettingStartedTree
       this.ulcTreeView1.Dock = System.Windows.Forms.DockStyle.Fill;
       this.ulcTreeView1.Location = new System.Drawing.Point(0, 0);
       this.ulcTreeView1.Name = "ulcTreeView1";
-      this.ulcTreeView1.Size = new System.Drawing.Size(1166, 450);
+      this.ulcTreeView1.Size = new System.Drawing.Size(1154, 635);
       this.ulcTreeView1.TabIndex = 0;
       // 
-      // Form4
+      // Form5
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(1166, 450);
+      this.ClientSize = new System.Drawing.Size(1154, 635);
       this.Controls.Add(this.ulcTreeView1);
-      this.Name = "Form4";
-      this.Text = "Form4";
+      this.Name = "Form5";
+      this.Text = "Form5";
       this.ResumeLayout(false);
 
     }

@@ -10,11 +10,12 @@ using System.Windows.Forms;
 
 namespace GettingStartedTree
 {
-  public partial class Form4 : Form
+  public partial class Form5 : Form
   {
     string __connection = string.Format("Host={0};Port={3};Username={1};Password={2};Database=ctrl_mon_dev",
      "localhost", "postgres", "root", 5432);
-    public Form4()
+  
+    public Form5()
     {
       InitializeComponent();
       this.ulcTreeView1.SetValue(__connection);

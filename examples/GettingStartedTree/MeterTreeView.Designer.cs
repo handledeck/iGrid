@@ -39,19 +39,13 @@ namespace GettingStartedTree
       this.lblNameView = new System.Windows.Forms.Label();
       this.btnView = new System.Windows.Forms.Button();
       this.label1 = new System.Windows.Forms.Label();
-      this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-      this.treeListView1 = new BrightIdeasSoftware.TreeListView();
       this.olvName = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
       this.olvDateTime = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
       this.olvMeterFactory = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
       this.olvValue = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
-      this.panel2 = new System.Windows.Forms.Panel();
+      this.treeListView1 = new BrightIdeasSoftware.TreeListView();
       this.tableLayoutPanel1.SuspendLayout();
       this.panel1.SuspendLayout();
-      ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
-      this.splitContainer1.Panel1.SuspendLayout();
-      this.splitContainer1.Panel2.SuspendLayout();
-      this.splitContainer1.SuspendLayout();
       ((System.ComponentModel.ISupportInitialize)(this.treeListView1)).BeginInit();
       this.SuspendLayout();
       // 
@@ -59,8 +53,8 @@ namespace GettingStartedTree
       // 
       this.tableLayoutPanel1.ColumnCount = 1;
       this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+      this.tableLayoutPanel1.Controls.Add(this.treeListView1, 0, 1);
       this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 0);
-      this.tableLayoutPanel1.Controls.Add(this.splitContainer1, 0, 1);
       this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
       this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
       this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -69,7 +63,6 @@ namespace GettingStartedTree
       this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
       this.tableLayoutPanel1.Size = new System.Drawing.Size(1183, 504);
       this.tableLayoutPanel1.TabIndex = 0;
-      this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
       // 
       // imageList1
       // 
@@ -123,9 +116,9 @@ namespace GettingStartedTree
       this.lblNameView.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
       this.lblNameView.Location = new System.Drawing.Point(139, 13);
       this.lblNameView.Name = "lblNameView";
-      this.lblNameView.Size = new System.Drawing.Size(47, 18);
+      this.lblNameView.Size = new System.Drawing.Size(107, 18);
       this.lblNameView.TabIndex = 2;
-      this.lblNameView.Text = "value";
+      this.lblNameView.Text = "Name of Res";
       // 
       // btnView
       // 
@@ -151,55 +144,6 @@ namespace GettingStartedTree
       this.label1.Size = new System.Drawing.Size(100, 18);
       this.label1.TabIndex = 0;
       this.label1.Text = "Имя объекта";
-      // 
-      // splitContainer1
-      // 
-      this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-      this.splitContainer1.Location = new System.Drawing.Point(3, 51);
-      this.splitContainer1.Name = "splitContainer1";
-      // 
-      // splitContainer1.Panel1
-      // 
-      this.splitContainer1.Panel1.Controls.Add(this.treeListView1);
-      // 
-      // splitContainer1.Panel2
-      // 
-      this.splitContainer1.Panel2.Controls.Add(this.panel2);
-      this.splitContainer1.Size = new System.Drawing.Size(1177, 450);
-      this.splitContainer1.SplitterDistance = 872;
-      this.splitContainer1.TabIndex = 3;
-      // 
-      // treeListView1
-      // 
-      this.treeListView1.AllColumns.Add(this.olvName);
-      this.treeListView1.AllColumns.Add(this.olvDateTime);
-      this.treeListView1.AllColumns.Add(this.olvMeterFactory);
-      this.treeListView1.AllColumns.Add(this.olvValue);
-      this.treeListView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.olvName,
-            this.olvDateTime,
-            this.olvMeterFactory,
-            this.olvValue});
-      this.treeListView1.Cursor = System.Windows.Forms.Cursors.Default;
-      this.treeListView1.Dock = System.Windows.Forms.DockStyle.Fill;
-      this.treeListView1.FullRowSelect = true;
-      this.treeListView1.HideSelection = false;
-      this.treeListView1.IncludeColumnHeadersInCopy = true;
-      this.treeListView1.IncludeHiddenColumnsInDataTransfer = true;
-      this.treeListView1.Location = new System.Drawing.Point(0, 0);
-      this.treeListView1.Margin = new System.Windows.Forms.Padding(4);
-      this.treeListView1.Name = "treeListView1";
-      this.treeListView1.OwnerDraw = true;
-      this.treeListView1.ShowGroups = false;
-      this.treeListView1.ShowSortIndicators = false;
-      this.treeListView1.Size = new System.Drawing.Size(872, 450);
-      this.treeListView1.SmallImageList = this.imageList1;
-      this.treeListView1.TabIndex = 2;
-      this.treeListView1.UseCompatibleStateImageBehavior = false;
-      this.treeListView1.UseFilterIndicator = false;
-      this.treeListView1.UseHotItem = true;
-      this.treeListView1.View = System.Windows.Forms.View.Details;
-      this.treeListView1.VirtualMode = true;
       // 
       // olvName
       // 
@@ -231,13 +175,37 @@ namespace GettingStartedTree
       this.olvValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
       this.olvValue.Width = 290;
       // 
-      // panel2
+      // treeListView1
       // 
-      this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-      this.panel2.Location = new System.Drawing.Point(16, 22);
-      this.panel2.Name = "panel2";
-      this.panel2.Size = new System.Drawing.Size(200, 100);
-      this.panel2.TabIndex = 0;
+      this.treeListView1.AllColumns.Add(this.olvName);
+      this.treeListView1.AllColumns.Add(this.olvDateTime);
+      this.treeListView1.AllColumns.Add(this.olvMeterFactory);
+      this.treeListView1.AllColumns.Add(this.olvValue);
+      this.treeListView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.olvName,
+            this.olvDateTime,
+            this.olvMeterFactory,
+            this.olvValue});
+      this.treeListView1.Cursor = System.Windows.Forms.Cursors.Default;
+      this.treeListView1.Dock = System.Windows.Forms.DockStyle.Fill;
+      this.treeListView1.FullRowSelect = true;
+      this.treeListView1.HideSelection = false;
+      this.treeListView1.IncludeColumnHeadersInCopy = true;
+      this.treeListView1.IncludeHiddenColumnsInDataTransfer = true;
+      this.treeListView1.Location = new System.Drawing.Point(4, 52);
+      this.treeListView1.Margin = new System.Windows.Forms.Padding(4);
+      this.treeListView1.Name = "treeListView1";
+      this.treeListView1.OwnerDraw = true;
+      this.treeListView1.ShowGroups = false;
+      this.treeListView1.ShowSortIndicators = false;
+      this.treeListView1.Size = new System.Drawing.Size(1175, 448);
+      this.treeListView1.SmallImageList = this.imageList1;
+      this.treeListView1.TabIndex = 3;
+      this.treeListView1.UseCompatibleStateImageBehavior = false;
+      this.treeListView1.UseFilterIndicator = false;
+      this.treeListView1.UseHotItem = true;
+      this.treeListView1.View = System.Windows.Forms.View.Details;
+      this.treeListView1.VirtualMode = true;
       // 
       // MeterTreeView
       // 
@@ -249,10 +217,6 @@ namespace GettingStartedTree
       this.tableLayoutPanel1.ResumeLayout(false);
       this.panel1.ResumeLayout(false);
       this.panel1.PerformLayout();
-      this.splitContainer1.Panel1.ResumeLayout(false);
-      this.splitContainer1.Panel2.ResumeLayout(false);
-      ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
-      this.splitContainer1.ResumeLayout(false);
       ((System.ComponentModel.ISupportInitialize)(this.treeListView1)).EndInit();
       this.ResumeLayout(false);
 
@@ -268,12 +232,10 @@ namespace GettingStartedTree
     private System.Windows.Forms.Label lblNameView;
     private System.Windows.Forms.ImageList imageList2;
     private System.Windows.Forms.Button btnRefresh;
-    private System.Windows.Forms.SplitContainer splitContainer1;
     private BrightIdeasSoftware.TreeListView treeListView1;
     private BrightIdeasSoftware.OLVColumn olvName;
     private BrightIdeasSoftware.OLVColumn olvDateTime;
     private BrightIdeasSoftware.OLVColumn olvMeterFactory;
     private BrightIdeasSoftware.OLVColumn olvValue;
-    private System.Windows.Forms.Panel panel2;
   }
 }

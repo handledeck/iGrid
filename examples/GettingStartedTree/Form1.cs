@@ -81,7 +81,7 @@ namespace GettingStartedTree
         var dbFactory = new ServiceStack.OrmLite.OrmLiteConnectionFactory(__connection, PostgreSqlDialect.Provider);
         using (var db = dbFactory.Open())
         {
-          MeterValue.CheckTableDb(db);
+          //MeterValue.CheckTableDb(db);
           string sql = "select mn.id, mn.name,mc.ip_address,mc.meters from main_nodes mn, main_ctrlinfo mc where mn.parent_id = 11 and mn.id = mc.id";
 
           IDbCommand cmd = db.CreateCommand();
